@@ -1,0 +1,75 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }
+
+.header {
+  width: 100%;
+  clear: both;
+  display: table; }
+  .header .martillo {
+    margin-right: 50px; }
+  .header .Titulo {
+    display: flex;
+    justify-content: center; }
+  .header .navegador {
+    /* background-color: rgb(32, 32, 206); */
+    display: flex;
+    justify-content: center; }
+    .header .navegador nav ul {
+      text-align: center; }
+    .header .navegador nav li {
+      display: inline-block; }
+    .header .navegador nav .a {
+      text-decoration: none;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 24px;
+      color: #1b29a8;
+      padding: 20px; }
+      .header .navegador nav .a :hover {
+        color: rgba(255, 255, 255, 0.63); }
+
+h1 {
+  color: #2dd143;
+  text-align: center;
+  text-overflow: clip;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  position: relative; }
+
+h2 {
+  text-align: center;
+  font-family: fantasy;
+  color: black;
+  margin-bottom: 20px; }
+
+h3 {
+  text-align: right;
+  color: goldenrod; }
+
+p {
+  text-align: right;
+  color: goldenrod; }
+
+body {
+  background-color: bisque;
+  justify-content: center; }
+
+.footer .loguito {
+  text-align: center;
+  margin-bottom: 15px; }
+
+.footer .imagenesFooter {
+  text-align: center;
+  margin-bottom: 15px; }
+
+h1 {
+  padding: 250px; }
+
+.btn--twitter {
+  background-color: #339be0; }
+
+.btn--facebook {
+  background-color: #081694; }
+
+.btn--instagram {
+  background-color: #882abe; }
